@@ -1,3 +1,14 @@
+# Codigo Marlin Adaptado para un impresora 3D con placa BigTreeTech SKR prov1.2 con el Chip STM32
+## Recodar hacer los PID Segun los componentes de hot end y heatbed. 
+## Recalibrar los pasos de los motores Nema 17 segun su extrsusor.
+## Esta version Incluye las opciones avanzadas para modificar parametros de paso, full screen LCD, Reanundar Impresion.
+## Elextronica Utilizadad:
+### drivers para motor sileciosos TMC2209
+### Triple Hot end 3 colores
+### HeatBed de superficie metalica
+### Extrusor Generico 
+### Finales de Carrera Fisicos (Ojo puedes no utilizarlos si igual utilizas drivers TMC2209)
+
 # Marlin 3D Printer Firmware
 
 ![GitHub](https://img.shields.io/github/license/marlinfirmware/marlin.svg)
